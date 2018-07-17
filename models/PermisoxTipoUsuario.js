@@ -6,10 +6,6 @@ const Schema = mongoose.Schema;
 const permisoxTipoUsuarioSchema = Schema({
 	IDTipoUsuario:Number,
 	NombreUsuario:String,
-	Modulos:[
-	{
-		ID:String,
-		SubModulos:[{ID:String}]}],
 },
 { collection: 'PermisosxTiposUsuarios' });
 
