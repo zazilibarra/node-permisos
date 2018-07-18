@@ -31,7 +31,7 @@ function getPermisoxUsuarioByIDUsuario(req,res) {
 			return res.status(500).send({message:"No existen datos"});
 		}
 
-		res.status(200).send(permiso);
+		res.status(200).send(permiso[0]);
 	});
 
 }

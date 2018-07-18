@@ -4,17 +4,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const estructuraMenus = Schema({
-	ID:Number,
+	ID:String,
 	Href:String,
 	Titulo:String,
 	Icono:String,
-	SubModulo:[
-	{
-		ID:Number,
-		Href:String,
-		Titulo:String,
-		Icono:String,
-	}],
 },
 { collection: 'EstructuraMenus' });
 

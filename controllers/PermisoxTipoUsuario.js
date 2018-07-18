@@ -31,7 +31,7 @@ function getPermisoByIDTipoUsuario(req,res) {
 			return res.status(500).send({message:"No existen productos"});
 		}
 
-		res.status(200).send(permisos);
+		res.status(200).send(permisos[0]);
 	});
 
 }
