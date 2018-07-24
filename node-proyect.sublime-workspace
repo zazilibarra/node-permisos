@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"pr",
+				"productId"
+			],
+			[
+				"produc",
+				"producto"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"sequence",
+				"sequence-theme"
+			],
+			[
+				"seq",
+				"sequenceElement"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"find",
+				"findAllBooks"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"ex",
+				"express"
+			],
+			[
+				"m",
+				"methodOverride"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"top",
+				"top_px"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"function",
+				"functionAlert"
+			],
+			[
+				"func",
+				"functionAlert"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"ht",
+				"html"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Pack\t\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Add Repository"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			]
+		],
+		"width": 587.0
+	},
+	"console":
+	{
+		"height": 96.0,
+		"history":
+		[
+			"quit",
+			"t",
+			"ayuda",
+			"help",
+			"helps",
+			"cmd",
+			"dir",
+			"s",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install package emmet",
+			"install package",
+			"Package Control: Install Package",
+			"Package Control: Install Packag",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Development_Proyects/Test/NodeJS/node-permisos"
+	],
+	"file_history":
+	[
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/models/EstructuraMenus.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/controllers/PermisoxTipoUsuario.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/controllers/PermisoxUsuario.js",
+		"/C/Development_Proyects/Test/PS/CreateZip.ps1",
+		"/C/Development_Proyects/WebApps/LogistikGO_BKG/WebApp_Logisti-k/Web.config",
+		"/C/Users/Ivan Morales/Documents/dbo.Usuarios.sql",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/script.ps1",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/script2.ps1",
+		"/C/Development_Proyects/Test/PS/script.ps1",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/controllers/EstructuraMenus.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/controllers/Product.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/index.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/models/PermisoxUsuario.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/app.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/models/PermisoxTipoUsuario.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/node_modules/async/auto.js",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/PermisosxUsuario.js",
+		"/C/Users/Ivan Morales/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Ivan Morales/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Development_Proyects/Test/NodeJS/node-permisos/models/PermisoxUsuario,js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/app.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/config.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/controllers/Product.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/index.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/models/PermisoxTipoUsuario.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo_deploy/web.config",
+		"/C/Users/Ivan Morales/Downloads/PermisosxTiposUsuarios.json",
+		"/C/Development_Proyects/Test/NodeJS/mongo/package.json",
+		"/C/Development_Proyects/Test/NodeJS/mongo/index.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/hello.js",
+		"/C/Development_Proyects/Test/NodeJS/mongo/web.config",
+		"/C/Users/Ivan Morales/Documents/Owner/Gempsa/gempsa/demogempsa/wp-admin/index.php",
+		"/C/Users/Ivan Morales/Documents/Owner/Bios/wwwroot/index.php",
+		"/C/Development_Proyects/Test/demo_Videos/index.html",
+		"/C/Users/Ivan Morales/Documents/Owner/DataNal.json",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Ivan Morales/Documents/Owner/Bios/BIOS Packs/BIOS Packs/BIOS Paquete 1/libreria-musical.html",
+		"/C/Users/Ivan Morales/Documents/Owner/Bios/BIOS Packs/BIOS Packs/BIOS Paquete 1/index.html",
+		"/C/Users/Ivan Morales/Documents/Owner/Bios/BIOS Packs/BIOS Packs/BIOS Paquete 1/muse_manifest.xml",
+		"/C/Development_Proyects/Test/testJavascript/index.html",
+		"/C/Development_Proyects/Test/testJavascript/app.js",
+		"/C/Users/Ivan Morales/Downloads/Sequence-master/test/index.html",
+		"/C/Users/Ivan Morales/Downloads/Sequence-master/test/scripts/sequence.js",
+		"/C/Users/Ivan Morales/Downloads/Sequence-master/test/css/sequence-theme.intro.css",
+		"/C/Users/Ivan Morales/Downloads/EvaluacionDocente2/EvaluacionDocente2/consultas",
+		"/C/Users/Ivan Morales/Downloads/EvaluacionDocente2/EvaluacionDocente2/EvaluacionDocente/index.php",
+		"/C/Users/Ivan Morales/Downloads/ultiverEvaluacionDocente/EvaluacionDocente/prueGra.html",
+		"/C/Users/Ivan Morales/Downloads/EvaluacionDocente2/EvaluacionDocente2/EvaluacionDocente/prueba.php",
+		"/C/Users/Ivan Morales/Downloads/EvaluacionDocente2/EvaluacionDocente2/bdEncuesta",
+		"/C/Users/Ivan Morales/Downloads/Sequence-master/Sequence-master/Gruntfile.js",
+		"/C/Development_Proyects/Test/TestImport/app.js",
+		"/C/Development_Proyects/Test/TestImport/ImportFunction.js",
+		"/C/Program Files/Sublime Text 3/importTest.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/app.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/routes.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/book.js",
+		"/C/Development_Proyects/WebApps/LogistikGO_BKG/WebApp_Logisti-k/Files/EvidenciasxDefault.json",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/models/books.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/models/routes.js",
+		"/C/Development_Proyects/Test/NodeJS/PrimerEjemplo/package-lock.json",
+		"/C/mongodb/log/mongo-log",
+		"/C/Users/Ivan Morales/Documents/Owner/Resources/MongoDB/example.txt",
+		"/C/Development_Proyects/Test/Vue/PrimerEjemplo/Index.html",
+		"/C/Development_Proyects/Test/Vue/PrimerEjemplo/app.js",
+		"/C/Users/Ivan Morales/Google Drive/Back/ANDROID/ANDROID/TestAndroid/app/src/androidTest/java/com/example/imorales/testandroid/ApplicationTest.java",
+		"/C/Development_Proyects/Test/PDF_Fragment/index.html",
+		"/C/Users/Ivan Morales/Documents/Owner/Gemp_Macro/Sub Comparar().vba",
+		"/C/Users/Ivan Morales/Downloads/Practica Final/Practica Final/index.html",
+		"/C/Development_Proyects/WebApps/Timer/index.html",
+		"/C/Development_Proyects/WebApps/Timer/MapsTracking.js",
+		"/C/miprimermodulo/index.html",
+		"/C/miprimermodulo/index.js",
+		"/C/miprimermodulo/package.json",
+		"/C/Users/Ivan Morales/Documents/Owner/Publish/Publish/Web.config",
+		"/C/Users/Ivan Morales/Downloads/Practica Final/Practica Final/scripts/startup.js",
+		"/C/Users/Ivan Morales/Downloads/Practica Final/Practica Final/pages/1e12819a-5dc9-77dc-f375-02dc4fbf5774.html",
+		"/C/Users/Ivan Morales/Downloads/Practica Final/Practica Final/pages/95ffd920-c3be-63a2-6ca4-6325165f03d5.html",
+		"/C/Users/Ivan Morales/Downloads/Practica Final/Practica Final/pages/5994c18e-af47-5578-0bdd-273f73bcec62.html",
+		"/C/Users/Ivan Morales/Documents/Owner/Respaldo/SeguimientoReal.js",
+		"/C/Users/Ivan Morales/Google Drive/CTI/Proyectos/KPI'S/js/jscript.js",
+		"/C/Development_Proyects/WebApps/WebApp_Logisti-k/WebApp_Logisti-k/js/pages/Clientes_Direcciones.js",
+		"/C/Development_Proyects/WebApps/WebApp_Logisti-k/WebApp_Logisti-k/js/pages/Bro_Servicios.js",
+		"/C/Users/Ivan Morales/Google Drive/CTI/Proyectos/KPI'S/index.html",
+		"/C/Development_Proyects/WebApps/WebApp_Logisti-k/WebApp_Logisti-k/Web.config",
+		"/C/Development_Proyects/WebApps/WebApp_Logisti-k/WebApp_Logisti-k/Files/firma.html",
+		"/C/Development_Proyects/WebApps/Test/firma.html",
+		"/C/Development_Proyects/WebApps/LogistikGO_Almacen/LogistikGO_Almacen/LogistikGO_Almacen/css/components-mdXD.css",
+		"/C/Development_Proyects/WebApps/LogistikGO_Almacen/LogistikGO_Almacen/LogistikGO_Almacen/css/components-md.min.css"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 143.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "node-proyect.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
