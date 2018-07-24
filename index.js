@@ -9,6 +9,10 @@ mongoose.connect(config.db,(err,res) => {
 	
 	console.log("Conexion establecida");
 
+	app.get('/',(req, res)=>{
+		res.send('Hola mundo!!');
+	});
+
 	app.listen(config.port, () => {
 		console.log(`API REST JALANDO EN:${config.port}`);
 	})
