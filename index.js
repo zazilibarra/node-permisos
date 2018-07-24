@@ -10,7 +10,7 @@ mongoose.connect(config.db,(err,res) => {
 	console.log("Conexion establecida");
 
 	app.get('/',(req, res)=>{
-		res.send('Hola mundo!!');
+		res.send(`API NODE LOGISTIKGO VERSIÓN:${process.env.npm_package_version}`);
 	});
 
 	app.listen(config.port, () => {
