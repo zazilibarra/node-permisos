@@ -18,6 +18,23 @@ function getVersiones(req,res) {
 
 }
 
+function getUltimaVersion(req,res) {
+
+	versiones.find({}).sort({fechaActualizacion:-1}).exec(function(err,version){
+		if(err){
+			return res.status(500).send({message:"Error al realizar la peticion"});
+		}
+
+		if(!version && version.length>0){
+			return res.status(500).send({message:"No existen datos"});
+		}	
+
+		res.status(200).send(version[0]);
+	});
+
+}
+
 module.exports = {
-	getVersiones
+	getVersiones,
+	getUltimaVersion
 }

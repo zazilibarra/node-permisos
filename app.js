@@ -19,5 +19,6 @@ app.get('/api/estructuramenu/', Estructura.getEstructura);
 app.get('/api/permisoxusuario/', PermisoxUsuarioController.getPermisoxUsuario);
 app.get('/api/permisoxusuario/:idUsuario', PermisoxUsuarioController.getPermisoxUsuarioByIDUsuario);
 app.get('/api/versiones/', Versiones.getVersiones);
+app.get('/api/lastversion/', Versiones.getUltimaVersion);
 
 module.exports = app
