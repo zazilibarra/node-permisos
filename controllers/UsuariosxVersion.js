@@ -9,7 +9,7 @@ function getUsuarioxVersion(req,res) {
 
 	console.log({_idusuario,_version, test:"test"});
 
-	usuariosxVersion.find( {idUsuario:_idusuario, version:"V1.102.102"}, (err,usuarioxversion)=>{
+	usuariosxVersion.find( {idUsuario:_idusuario, version:_version}, (err,usuarioxversion)=>{
 		console.log(usuarioxversion);
 
 		if(err){
