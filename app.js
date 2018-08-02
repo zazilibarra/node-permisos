@@ -9,6 +9,7 @@ const PermisoController = require('./controllers/PermisoxTipoUsuario');
 const Estructura = require('./controllers/EstructuraMenus');
 const PermisoxUsuarioController = require('./controllers/PermisoxUsuario');
 const Versiones = require('./controllers/Versiones');
+const UsuariosxVersion = require('./controllers/UsuariosxVersion');
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -20,5 +21,6 @@ app.get('/api/permisoxusuario/', PermisoxUsuarioController.getPermisoxUsuario);
 app.get('/api/permisoxusuario/:idUsuario', PermisoxUsuarioController.getPermisoxUsuarioByIDUsuario);
 app.get('/api/versiones/', Versiones.getVersiones);
 app.get('/api/lastversion/', Versiones.getUltimaVersion);
+app.get('/api/usuarioxversion', UsuariosxVersion.getUsuarioxVersion);
 
 module.exports = app
