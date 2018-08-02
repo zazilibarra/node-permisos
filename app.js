@@ -22,5 +22,6 @@ app.get('/api/permisoxusuario/:idUsuario', PermisoxUsuarioController.getPermisox
 app.get('/api/versiones/', Versiones.getVersiones);
 app.get('/api/lastversion/', Versiones.getUltimaVersion);
 app.get('/api/usuarioxversion', UsuariosxVersion.getUsuarioxVersion);
+app.post('/api/usuarioxversion', UsuariosxVersion.postUsuarioxVersion);
 
 module.exports = app

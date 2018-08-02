@@ -24,6 +24,31 @@ function getUsuarioxVersion(req,res) {
 
 }
 
+
+function postUsuarioxVersion(req,res) {
+
+	console.log(req.body);
+
+	let _idusuario = parseInt(req.body.idusuario);
+	let _version = req.body.version;
+
+	console.log({_idusuario,_version});
+
+	let nUsuarioxVersion = new usuariosxVersion();
+
+	nUsuarioxVersion.idUsuario = _idusuario;
+	nUsuarioxVersion.version = _version;
+	nUsuarioxVersion.fechaAcepta = new Date();
+
+	nUsuarioxVersion.save((error, usuarioxVersionStored)=>{
+		if(error)
+			res.status(500).send({message:`Error al guardar${error}`});
+		res.status(200).send({usuarioxVersionStored});
+	});
+}
+
+
 module.exports = {
-	getUsuarioxVersion
+	getUsuarioxVersion,
+	postUsuarioxVersion
 }
