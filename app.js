@@ -21,6 +21,7 @@ app.get('/api/permisoxusuario/', PermisoxUsuarioController.getPermisoxUsuario);
 app.get('/api/permisoxusuario/:idUsuario', PermisoxUsuarioController.getPermisoxUsuarioByIDUsuario);
 app.get('/api/versiones/', Versiones.getVersiones);
 app.get('/api/lastversion/:entorno', Versiones.getUltimaVersion);
+app.get('/api/lastversion/', Versiones.getUltimaVersion);
 app.get('/api/usuarioxversion', UsuariosxVersion.getUsuarioxVersion);
 app.post('/api/usuarioxversion', UsuariosxVersion.postUsuarioxVersion);
 

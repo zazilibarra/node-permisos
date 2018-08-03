@@ -21,8 +21,17 @@ function getVersiones(req,res) {
 function getUltimaVersion(req,res) {
 
 	let _entorno = req.params.entorno;
+	let collection;
 
-	versiones.find({entorno:_entorno}).sort({fechaActualizacion:-1}).exec(function(err,version){
+	if(_entorno){
+		collection = versiones.find({entorno:_entorno});
+	}
+	else
+	{
+		collection = versiones.find({});
+	}
+
+	collection.sort({fechaActualizacion:-1}).exec(function(err,version){
 		if(err){
 			return res.status(500).send({message:"Error al realizar la peticion"});
 		}
