@@ -4,7 +4,18 @@ const versiones = require('../models/Versiones');
 
 function getVersiones(req,res) {
 
-	versiones.find({}, (err, version) => {
+	let _entorno = req.params.entorno;
+	let collection;
+
+	if(_entorno){
+		collection = versiones.find({entorno:_entorno});
+	}
+	else
+	{
+		collection = versiones.find({});
+	}
+
+	collection.exec((err, version) => {
 		if(err){
 			return res.status(500).send({message:"Error al realizar la peticion"});
 		}
