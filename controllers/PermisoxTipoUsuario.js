@@ -9,7 +9,7 @@ function getPermiso(req,res) {
 			return res.status(500).send({message:"Error al realizar la peticion"});
 		}
 
-		if(!permisos){
+		if(!permisos || permisos.length == 0){
 			return res.status(500).send({message:"No existen permisos"});
 		}
 
@@ -27,8 +27,8 @@ function getPermisoByIDTipoUsuario(req,res) {
 			return res.status(500).send({message:"Error al realizar la peticion"});
 		}
 
-		if(!permisos){
-			return res.status(500).send({message:"No existen productos"});
+		if(!permisos || permisos.length == 0){
+			return res.status(500).send({message:"No existen permisos"});
 		}
 
 		res.status(200).send(permisos[0]);

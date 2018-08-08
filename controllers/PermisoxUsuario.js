@@ -27,7 +27,7 @@ function getPermisoxUsuarioByIDUsuario(req,res) {
 			return res.status(500).send({message:"Error al realizar la peticion"});
 		}
 
-		if(!permiso){
+		if(!permiso || permiso.length == 0){
 			return res.status(500).send({message:"No existen datos"});
 		}
 
