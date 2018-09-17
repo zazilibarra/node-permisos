@@ -1,12 +1,26 @@
-'use strict'
+"use strict";
 
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const permisoxTipoUsuarioSchema = Schema({
-	IDTipoUsuario:Number,
-	NombreUsuario:String,
-},
-{ collection: 'PermisosxTiposUsuarios' });
+const permisoxTipoUsuarioSchema = Schema(
+  {
+    IDTipoUsuario: Number,
+    Modulos: [
+      {
+        ID: String,
+        SubModulos: [
+          {
+            ID: String
+          }
+        ]
+      }
+    ]
+  },
+  { collection: "PermisosxTiposUsuarios" }
+);
 
-module.exports = mongoose.model('PermisoxTipoUsuario', permisoxTipoUsuarioSchema);
+module.exports = mongoose.model(
+  "PermisoxTipoUsuario",
+  permisoxTipoUsuarioSchema
+);
