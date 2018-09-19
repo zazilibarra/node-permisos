@@ -14,6 +14,7 @@ const ColumnasxTipoUsuario = require("./controllers/ColumnasxTipoUsuario");
 const ColumnasxUsuario = require("./controllers/ColumnasxUsuario");
 const ElementosxTipoUsuario = require("./controllers/ElementosxTipoUsuario");
 const ElementosxUsuario = require("./controllers/ElementosxUsuario");
+const Sucursales = require("./controllers/Sucursales");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -62,5 +63,7 @@ app.post("/api/modulos", PermisoController.saveModulo);
 app.delete("/api/modulos/:idTipoUsuario", PermisoController.deleteModulo);
 app.post("/api/submodulos", PermisoController.saveSubModulo);
 app.delete("/api/submodulos/:idTipoUsuario", PermisoController.deleteSubModulo);
+
+app.get("/api/sucursales", Sucursales.getSucursales);
 
 module.exports = app;

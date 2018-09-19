@@ -23,8 +23,8 @@ function getVersiones(req,res) {
 		if(!version){
 			return res.status(500).send({message:"No existen datos"});
 		}
-
-		res.status(200).send(version);
+		console.log(version.map(function (x){return x.version}));
+		res.status(200).send(version.map((x)=>{ return x}));
 	});
 
 }
