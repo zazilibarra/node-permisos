@@ -17,6 +17,7 @@ function getSucursales(req,res) {
 
 		res.status(200).send(sucursales);
 	});
+	//Test
 }
 
 module.exports = {
